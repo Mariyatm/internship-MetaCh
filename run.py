@@ -15,13 +15,13 @@ def run_metacherchant(parametrs):
 	print(Sh(str_run_metacherchant))
 
 def run_spades(reads_1, reads_2):
-	str_run_spades = 'python ../../../../7/SPAdes-3.10.1-Linux/bin/spades.py --pe1-1 '
+	str_run_spades = 'python SPAdes-3.10.1-Linux/bin/spades.py --pe1-1 '
 	str_run_spades += reads_1 + ' --pe1-2 '+ reads_2 +' -o out_spades'
 	print(str_run_spades)
 	print(Sh(str_run_spades))
 
 def run_megahit(reads_1, reads_2):
-	str_run_megahit = './../../../../megahit/megahit/megahit -1 '
+	str_run_megahit = './megahit/megahit/megahit -1 '
 	str_run_megahit += reads_1 + ' -2 ' + reads_2 + ' -o out_megahit'
 	print(str_run_megahit)
 	print(Sh(str_run_megahit))	

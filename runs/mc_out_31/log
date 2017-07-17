@@ -1,0 +1,6 @@
+time ./../metacherchant.sh --k 31 --coverage 0  --reads data/submitted/*.fq.gz  --seq gene1/gene1.fasta --maxkmers 100000 --output gene1/mc_out_31
+
+real    11m6.668s
+user    92m31.816s
+sys     1m1.312s
+
